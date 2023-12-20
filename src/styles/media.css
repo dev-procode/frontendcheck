@@ -1,0 +1,454 @@
+@media screen and (max-width: 991px) {}
+
+
+@media(max-width:1399px) {}
+@media(max-width:1299px) {
+    
+}
+
+@media(max-width:1199px) {
+    .bookingNavigate button{
+        font-size: 13px;
+    }
+    .bookingBox{
+        width: 31%;
+    }
+    h2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .bannertxt{
+        height: 390px;
+    }
+    .commonButton{
+        font-size: 18px;
+    }
+    .chooseOptimg{
+        width: 400px;
+        height: 400px;
+    }
+    .chooseoption h3{
+        font-size: 30px;
+        line-height: 36px;
+    }
+}
+@media(min-width:992px) {
+    .dbnav{
+        width: 100%!important;
+    }
+}
+@media(max-width:991px) {
+    .sideBtn {
+        display: block;
+        border: none;
+        outline: none;
+        background: #29304a;
+        color: #fff;
+        font-size: 25px;
+        line-height: 25px;
+        padding: 5px;
+        width: 70px;
+        position: fixed;
+        left: 0;
+        z-index: 99;
+    }
+    .closebtn {
+        display: block;
+        position: absolute;
+        z-index: 9;
+        right: 0;
+        top: 0;
+        background: #ff0000;
+        font-size: 22px;
+        line-height: 22px;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 0 0 0 10px;
+    }
+    .dbnav {
+        position: fixed;
+        z-index: 9999;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 0;
+        overflow: hidden;
+        transition: all 0.3s;
+/*        background: #29304a;*/
+        max-width: 300px;
+    }
+    .footerfollow{
+        padding-bottom: 20px;
+    }
+    .footerTop ul li {
+    padding-bottom: 7px;
+}
+    .footContact{
+        padding-bottom: 10px;
+    }
+    
+    .chooseOptimg{
+        margin: 0 auto 30px;
+    }
+    .coptxt{
+        align-items: center;
+        text-align: center;
+    }
+    .coptimg2{
+        float: none;
+    }
+    .partnersbg h3{
+        font-size: 25px;
+    }
+    
+    .navBlock .navbar-toggler{
+        box-shadow: none;
+    }
+    .navbar-collapse{
+            position: absolute;
+            z-index: 9;
+            right: 0px;
+        top: 70px;
+            width: 100vw;
+        background: #072c78;
+        padding: 20px 15px;
+    }
+    .mainHeader ul li{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .dropdown-menu.show{
+        background: #1b47a1;
+    }
+    .dbnav ul li ul.dropdown-menu{
+        background: #fff;
+    }
+    .dropdown-menu.show li{
+        padding-bottom: 0;
+    }
+    .mainHeader ul li a{
+        color: #fff;
+    }
+    .footerTop{
+        text-align: center;
+    }
+    .footerTop h6{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footContact{
+        justify-content: center;
+        padding-right: 0;
+    }
+    
+    p, ul, li, ol, body, input, a, button{
+        font-size: 16px;
+    }
+    
+    
+    .navbar-toggler-icon {
+        position: relative;
+    }
+
+    header .navbar-toggler[aria-expanded="true"] i {
+        display: none;
+    }
+
+    header .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
+        content: "\2715";
+        position: absolute;
+        z-index: 9;
+        left: 12px;
+        top: -16px;
+        font-size: 26px;
+        font-weight: 600;
+    }
+    
+    
+
+
+/*
+    h1 {
+        font-size: 38px;
+        line-height: 45px;
+    }
+
+    h2 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    h3 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    h4 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    h5 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+*/
+}
+
+@media(max-width:767px) {
+    .loginBg h2{
+        font-size: 28px;
+    }
+    .costbg{
+        flex-direction: column;
+    }
+    .costLft{
+        width: 100%;
+    }
+    .mapBg{
+        flex-direction: column;
+    }
+    .mapLeft{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .bookinghdn h4{
+        padding-bottom: 10px;
+    }
+    .checkbx span{
+        width: 49%;
+    }
+    .bookinghdn{
+        flex-direction: column;
+    }
+    .availdate{
+        padding-bottom: 20px;
+    }
+    .choosewhite {
+        width: 22%;
+    }
+    .bkmaplft{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+    }
+    .bkmaplft div{
+        margin-right: 20px;
+    }
+    .zigzac{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .payStatus{
+        flex-direction: column;
+    }
+    .payStatus-a{
+        width: 100%;
+        border: none;
+        margin-bottom: 25px;
+    }
+    .bookingNavigate{
+        flex-direction: column;
+    }
+    .bookingNavigate button{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .chartertopblock h3{
+        font-size: 28px;
+        line-height: 35px;
+    }
+    
+    .mainBanner h2{
+        font-size: 30px;
+        line-height: 38px;
+    }
+    
+    .chooseoption h3{
+        font-size: 25px;
+    }
+    .footerTop h6{
+        font-size: 20px;
+    }
+       
+    .bannertxt{
+        align-items: center;
+        height: 270px;
+        text-align: center;
+    }
+    .bannertxt h4{
+        padding-left: 0;
+    }
+    .chartertopblock{
+        margin-bottom: 25px;
+    }
+    .copinn{
+        padding: 0;
+    }
+    .footercar{
+        top: -56px;
+    }
+    .footercar img{
+        width: 150px;
+    }
+    .footerTop{
+        padding-top: 50px;
+    }
+    
+
+    p,
+    ul,
+    li,
+    ol,
+    div,
+    body,   
+    a {
+        font-size: 16px;
+    }
+
+
+    h1 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    h3 {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    h4 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    h5 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    h6 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+   
+    .logoBg img {
+/*        width: 160px;*/
+    }
+    .navbar-collapse{
+        top: 65px;
+    }
+   
+    
+}
+
+@media(max-width:700px) {}
+
+@media(max-width: 600px) {
+    .regdCheck{
+        flex-direction: column;
+        align-items: center;
+    }
+    .choosewhite {
+    width: 47%;
+}
+    .bookingtxt{
+        flex-direction: column;
+        text-align: center;
+    }
+    .bookcontactbg{
+        flex-direction: column;
+        text-align: center;
+    }
+    .bcleft{
+        width: 100%;
+        border: none;
+        margin-bottom: 20px;
+    }
+    .bcright{
+        padding-left: 0;
+    }
+    .bookingRank{
+        flex-direction: column;
+    }
+    .bookingHdn{
+        padding-bottom: 15px;
+    }
+    .bookingBox{
+        width: 48%;
+    }
+   .chooseOptimg {
+    width: 300px;
+    height: 300px;
+}
+    .partnerLogos img{
+        width: 129px;
+    }
+}
+
+@media(max-width:575px) {}
+
+@media(max-width:480px) {
+    .bookingBox{
+        width: 100%;
+    }
+    .footerTop ul li a{
+        font-size: 15px;
+    }
+    .mainBanner h2{
+        font-size: 28px;
+    }
+    
+    header .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before{
+      left: 9px;
+    top: -13px;
+    font-size: 22px;
+    }
+    
+    .logoBg img{
+        width: 120px;
+    }
+    .navbar-toggler{
+        font-size: 24px;
+        line-height: 24px;
+        padding: 2px;
+    }
+    .loginBtn{
+        font-size: 14px;
+        padding: 2px 15px;
+    }
+    
+    
+    .navbar-collapse{
+        top: 60px;
+    }
+    .navBlock .navbar-toggler{
+        padding: 5px;
+    }
+    
+   
+}
+
+@media(max-width:382px) {}
+@media(max-width:360px) {
+   
+    .commonButton{
+        font-size: 12px;
+    }
+    
+    .navBlock .navbar-toggler{
+        padding: 2px;
+    }
+
+
+}
